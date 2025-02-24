@@ -6,7 +6,7 @@ export class CreateMahasiswadto {
   @ApiProperty({
     description: 'NIM mahasiswa',
     type: String,
-    example: '105841105122',
+    example: '105841106122',
   })
   @IsString()
   @IsNotEmpty()
@@ -16,7 +16,7 @@ export class CreateMahasiswadto {
   @ApiProperty({
     description: 'Nama mahasiswa',
     type: String,
-    example: 'Syauqiyah Mujahidah Yahya',
+    example: 'Arsifah ainun  aulia',
   })
   @IsString()
 
